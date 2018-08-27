@@ -92,7 +92,7 @@ func init() {
 	case "android":
 		osSuffix = "linux"
 	default:
-		panic("Unsupported OS")
+		panic("Unsupported OS: %s". osSuffix)
 	}
 }
 
