@@ -1,6 +1,6 @@
 workspace:
   base: /go
-  path: src/github.com/arduino/arduino-cli
+  path: src/github.com/hellvesper/arduino-cli
 
 pipeline:
   build:
