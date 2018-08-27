@@ -89,6 +89,8 @@ func init() {
 		osSuffix = runtime.GOOS
 	case "darwin":
 		osSuffix = "macosx"
+	case "android":
+		osSuffix = "linux"
 	default:
 		panic("Unsupported OS")
 	}
